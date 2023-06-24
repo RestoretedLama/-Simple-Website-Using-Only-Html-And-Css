@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+          alert('Hocam merhaba  üniversitemizde bir oyun geliştirme topluluğu kurmak istiyorum bu topluluğu oluşturmamda bana yol gösterebilirmisiniz. Bu fikrimi bu şekilde size iletmek daha güzel olur diye düşündüm.');
+        });
+      </script>
+  <style>
+     body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-image: url(Resimler/game-development-courses.png);
+      background-size: cover;
+    }
+    .container {
+      text-align: center;
+    }
+    .frame img {
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+      padding-top: 125px;
+      border-radius: 15px;
+    }
+
+    .frame {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: #f1f1f1;
+  position: relative;
+  border-radius: 15px; 
+}
+
+    .frame .additional-text {
+      position: absolute;
+      top:60px;
+      left: 0;
+      width: 100%;
+     
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    header {
+      text-align: center;
+      height: 100px;
+      width: 650px;
+      background-color: #FFCC99;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    header button {
+      margin-top: 10px;
+    }
+
+    .button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <button  class="button-17" role="button" onclick="window.location.href='Final.html'">Ana Sayfa</button>  &nbsp;&nbsp;&nbsp; <button class="button-17" role="button" onclick="window.location.href='projelerim.html'">Projelerim</button> &nbsp;&nbsp;&nbsp;  <button class="button-17" role="button" onclick="window.location.href='sertifikalarım.html'">Sertifikalarım</button> &nbsp;&nbsp;&nbsp;<button  class="button-17" role="button" onclick="window.location.href='İletisim.html'">İletişim</button>   </header>
+
+  <div class="container">
+    <div class="frame">
+      <div class="text" style="font-size: 25px;">Kendi Oyun Şirketimi kurmak </div>
+      <div class="additional-text" style="font-size: 15px;">Hayalimdeki oyunları üreterek hayatımı idare ettirmek benim en büyük hayallerimden biri ve bunu gerçekleştirmek için unity oyun motoru ile C# yazılım dilinde kendimi geliştiriyorum</div>
+      <img src="Resimler/steam.png" >
+    
+      
+    </div>
+
+    <div class="frame">
+      <div class="text" style="font-size: 25px;">Oyun Festivallerinde Oyunlarımı Sunmak </div>
+      <div class="additional-text" style="font-size: 15px;"> Yaptığım oyunları Summer Game Fest, Xbox Showcase, Playstation Showcase  gibi oyun festivallerinde diğer büyük oyuun yapımcılarının yanında sergilemek istiyorum </div>
+      <img src="Resimler/Shock2-Streaming-Showcase-2022.webp" >
+    </div>
+
+    <div class="frame">
+        <div class="text" style="font-size: 24px;">Üniversitemde Bir Oyun Geliştirme Topluluğu Kurmak</div>
+        <div class="additional-text" style="font-size: 15px;">Üniversitemde bir oyun geliştirme topluluğu kurarak benim gibi oyun geliştiren veya oyun geliştirmek isteyenleri toplayarak kendi oyun geliştirme ekibimi ve diğer geliştiricilerinde kendi ekiplerini bulmalarında yardımcı olmak istiyorum</div>
+        <img src="Resimler/indir.jpg" >
+      </div>
+      <div class="frame">
+        <div class="text" style="font-size: 47px;"> Game Jam </div>
+        <div class="additional-text" style="font-size: 15px; padding: 0;">Üniversitemde bir oyun geliştirme yarışması düzenlemek istiyorum. Game Jam ler geliştiric ekiplerin 48 saat süre içerisinde birer oyun yapmasını ve yaptıkları oyunları juriye ve diğer geliştiricelere sundukları bir yarışmadır. Dünya da pek çok üniversitede ve şehirde yapılan bu etkinliği kendi üniversitemde de gerçekleştirmek istiyorum. </div>
+        <img src="Resimler/Game_Jam2-477x306.png" style="height: 150px; padding-top: 150px;" >
+      </div>
+  </div>
+</body>
+</html>
+
+
